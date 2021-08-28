@@ -1,0 +1,15 @@
+Design Checklist
+
+1. Ensure feature crossing is experimented before jumping to non-linear models (as applicable)
+2. Verify there is no feature leakage
+3. Verify new features are added to the model with justification documented on how they increase the model quality
+4. Verify features are correctly scaled
+5. Verify simpler traditional ML models are tried before using deep learning
+6. Ensure hashing is applied for sparse features (as applicable)
+7. Verify model dimensionality reduction was experimented
+8. Verify classification threshold tuning (in logistic regression) takes into account business impact
+9. Verify regularization or early stopping in logistic regression is applied (as applicable)
+10. Apply embeddings to translate large sparse vectors into a lower-dimensional space (while preserving semantic relationships)
+11. Verify model freshness requirements based on the problem requirements
+12. Verify the impact of features that were discarded for being applicable only to a small fraction of data
+13. Check if feature count is proportional to amount of data available for model training
