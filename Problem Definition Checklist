@@ -1,0 +1,10 @@
+Problem Definition Checklist
+
+1. Verified there is quantifiable business value in solving the problem
+2. Verified that simpler alternatives (such as hand-crafted heuristics) are not sufficient to address the problem.
+3. Ensure that the problem has been decomposed in smallest possible units.
+4. Clarity on how the AI output will be applied to accomplish the desired business outcome
+5. Clear measurable metric(s) to measure the success of the solution
+6. Clear understanding of precision versus recall tradeoff of the problem
+7. Verified impact when the logistic classification prediction is incorrect
+8. Ensure project costs includes the cost of managing corresponding data pipelines
