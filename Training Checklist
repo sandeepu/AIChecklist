@@ -1,0 +1,29 @@
+Training Checklist
+
+1. Ensure interpretability is not compromised prematurely for performance during early stages of model development
+2. Verify model tuning is following a scientific approach (instead of ad-hoc)
+3. Verify the learning rate is not too high
+4. Verify root causes are analyzed and documented if the loss-epoch graph is not converging
+5. Analyzed specificity versus sparsity trade-off on model accuracy
+6. Verify reducing loss value does have an effect on improving recall/precision
+7. Define clear criteria for starting online experimentation i.e., canary deployment
+8. Verify per-class accuracy in multi-class classification
+9. Verify infrastructure capacity or cloud budget allocated for training
+10. Ensure model permutations are verified using the same datasets (for an apples-to-apples comparison)
+11. Verified model accuracy not just for the overall dataset but also for individual segments/cohorts
+12. Verify the training results are reproducible i.e. snapshotting the code (algo), data, config, and parameter values.
+13. Verified there are no inconsistencies in training-serving skew for features
+14. Verify feedback loops in model prediction have been analyzed
+15. Verify there is a backup plan if the online experiment does not go as expected
+16. Verify that the model has been calibrated
+17. Leverage automated hyperameter tuning (as applicable)
+18. Verify prediction bias has been analyzed
+19. Verify dataset analyzed for class imbalance
+20. Verify model experimented with regularization lambda to balance simplicity and training-data fit.
+21. Verify the same test samples are not being used over and over for test and validation
+22. Verify batch size hyperparameter is not too small
+23. Verify initiation values in neural networks
+24. Verify the details of failed experiments are captured
+25. Verify the impact of wrong labels before investing in fixing them
+26. Verify a consistent set of metrics are used to analyze the results of online experiments
+27. Verify multiple hyperparameters are not tuned at the same time
