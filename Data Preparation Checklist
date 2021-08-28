@@ -1,0 +1,13 @@
+Data Preparation Checklist
+
+1. Verify data is IID (Independent and Identically Distributed)
+2. Verify expired data is not used i.e., historic data values that may not be relevant
+3. Verify there are no systematic errors in data collection
+4. Verify dataset is monitored for sudden distribution changes
+5. Verify seasonality in data (if applicable) is correctly taken into account
+6. Verify data is randomized before splitting into training and test data
+7. Verify there are no duplicates between test and training examples
+8. Ensure sampled data is statistically representative of the dataset as a whole
+9. Verify the correct use of normalization and standardization for scaling feature values
+10. Verify outliers have been properly handled
+11. Verify proper sampling for selecting samples from within a large dataset
