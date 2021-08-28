@@ -1,0 +1,10 @@
+Dataset Selection Checklist
+
+1. Verified the meaning of the dataset attributes
+2. Verified that the derived metrics used in the project are standardized
+3. Verified data from the warehouse or lake is not stale due to data pipeline errors
+4. Verify the schema complaince of the dataset
+5. Verify the datasets are in compliance with data rights regulations (such as GDPR, CCPA, etc)
+6. Ensuring there is a clear change management process for dataset scheme changes
+7. Verify dataset is not biased
+8. Verify the datasets being used are not orphaned i.e., without data stewards
