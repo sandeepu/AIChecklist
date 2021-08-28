@@ -1,0 +1,13 @@
+Operationalize Checklist
+
+1. Verify data pipelines for generating time-dependent features are performant for low latency
+2. Verify validation tests exist for data pipelines
+3. Verify model performance for the individual data slices
+4. Avoid using two different programming languages between training and serving
+5. Ensure appropriate model scaling such that inference threshold is within threshold
+6. Verify data quality inconsistencies are checked at source, ingestion into the lake, and ETL processing
+7. Verify cloud spend associated with the AI product is within budget.
+8. Ensure optimization phase to balance quality with model depth and width
+9. Verify monitoring for data and concept drift
+10. Verify unnecessary calibration layers have been removed
+11. Verify there is monitoring to detect slow poisoning of the model due to intermittent errors
